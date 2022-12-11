@@ -1,6 +1,7 @@
 .container-navbar {
   padding: 0 5%;
 }
+
 .navbar-nav {
   font-size: 13px;
   font-weight: 450;
@@ -123,6 +124,7 @@
 }
 main {
   padding: 0 5%;
+  margin-bottom: 3rem;
 }
 .card {
   border: none !important;
@@ -143,4 +145,75 @@ main {
 .card-body p {
   font-size: 1rem;
   font-weight: 400;
+}
+
+.hero {
+  padding: 0 5%;
+  margin: 3rem 0 3rem 0;
+  padding-top: 3rem;
+}
+.ms-style {
+  width: 100%;
+  height: 515px;
+  background-image: url('./gldn-MSFT-hero-Edge_VP5-1596x600.avif');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /* background-attachment: fixed; */
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.ms-edge {
+  position: absolute;
+  /* top: 25%; */
+  left: 10% !important;
+  color: black;
+  width: 30%;
+  height: fit-content;
+  padding: 3rem;
+
+  background-color: #fff;
+}
+.ms-edge h3 {
+  font-size: 2.3125rem;
+  margin-bottom: 1.25rem;
+}
+.ms-edge p {
+  font-size: 1rem;
+  margin-bottom: 1.25rem;
+}
+.ms-edge button {
+  font-size: 16px;
+  color: #fff;
+  background-color: #000;
+  margin: 8px 0;
+  padding: 10px 12px;
+  font-weight: 500;
+  border: none;
+  border-radius: 3px;
+  /* position: absolute; */
+  left: 0;
+}
+.cards-2 h3 {
+  padding: 0 5%;
+  padding-top: 3rem;
+  font-size: 2.3125rem;
+  margin-bottom: 1.25rem;
+}
+#btn-back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  z-index: 1;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 0.625rem 0.75rem;
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.654);
+  color: #000;
 }
